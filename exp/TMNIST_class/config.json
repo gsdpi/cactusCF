@@ -1,0 +1,21 @@
+{
+    "type": "CNN_2D",
+    "data": "TMNIST",
+    "name": "TMNIST_class",
+    "filters": [
+        8,
+        16
+    ],
+    "units": [
+        10,
+        5
+    ],
+    "kernel_size": 3,
+    "epochs": 50,
+    "patience": 20,
+    "batch_size": 64,
+    "class": [
+        8,
+        9
+    ]
+}

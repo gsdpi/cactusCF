@@ -1,0 +1,22 @@
+{
+    "type": "CACTUS_VAE_2D",
+    "data": "TMNIST",
+    "name": "TMNIST_CACTUS",
+    "epochs": 300,
+    "filters": 32,
+    "convBlocks": 1,
+    "alpha": 0.6,
+    "filters_lt": 16,
+    "gamma": 2,
+    "initial_epoch_C": 5,
+    "final_epoch_C": 300,
+    "slope_C": 0.33,
+    "class_out": [
+        "Light",
+        "Italic"
+    ],
+    "class": [
+        8,
+        9
+    ]
+}

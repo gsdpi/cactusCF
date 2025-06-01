@@ -1,0 +1,17 @@
+{
+    "type": "CNNAE_2D",
+    "data": "TMNIST",
+    "name": "TMNIST_AE",
+    "epochs": 300,
+    "patience": 15,
+    "alpha": 1,
+    "filters_lt": 16,
+    "class_out": [
+        "Light",
+        "Italic"
+    ],
+    "class": [
+        8,
+        9
+    ]
+}
